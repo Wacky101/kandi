@@ -91,6 +91,19 @@ Intel
 -   Microchip processors for IoT devices
 -   Development kits for each layer/tier
 -   Cooperation with McAfee for security
+-   Cooperation with Windriver for 
+-   Gateway hardware
+    TODO: Fill in more information!
+
+Windriver
+-   Own, modified Linux, used for embedded systems
+-   Connectivity
+-   Management
+-   Security
+-   Industrial/enterprise users
+-   Remote management 
+-   Cooperation with Intel
+-   Offers development, integration, managment, planning consulting
 
 KEYWORDS
 ========
