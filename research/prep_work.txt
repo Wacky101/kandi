@@ -1,0 +1,19 @@
+Thesis: Internet-of-Things teknologia-alustat ja kehittäjäekosysteemit
+
+Random findings:
+-   IPv6 is needed instead of IPv4 to provide enough IP-addresses to
+    the billions of connected devices
+-   
+
+The Evolution of the Internet of Things, Texas Instruments
+http://www.ti.com/lit/ml/swrb028.pdf
+
+-   Currently, IoT consists of many vertical systems
+-   The goal is to be able to connect devices on a horizontal level
+        e.g. A sprinkler should be able to detect motion on the grass.
+-   IFTTT.com and zAPIer.com provide services to create own conditionals
+    between devices and systems. These services do not lead to
+    rapid IoT deployment
+-   Internet has to become more flat, P2P to enable the full benefits
+    of IoT
+-   Security will play a very important role in the development of IoT

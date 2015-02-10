@@ -1,0 +1,117 @@
+PLATFORMS
+=========
+
+ThingWorx
+-   Event driven
+-   Drag n' drop UI
+    *   Dashboards
+    *   Workspaces
+    *   Mobile support
+-   Query/Analysis tool
+-   Users
+    *    Elisa
+-   Collaboration
+    *    Axeda, Together: "the most complete IoT solution stack"
+-   Whitepapers
+
+Axeda
+-   Includes a lower level tier for IoT connectivity
+-   Connections
+-   Data collection
+-   Content management
+-   Security
+-   Device management
+-   Remote access
+    *   tunneling
+    *   routing
+-   Policy management
+-   Whitepapers
+
+Raco Wireless
+-   Omega Management Suite
+    *   Dashboards
+    *   Analysis
+-   Omega DevCloud
+    *   Binary communication
+    *   Mobile Lab Partner, use Android/iOS phone to mock 
+        M2M hardware
+    *   RESTful APIs
+-   Whitepapers
+
+EVERYTHNG
+-   Connected products  :   Objects with embedded networking capabilities
+-   Tagged products     :   Objects with QR codes/NFC tags etc.
+-   Early development stage
+-   Features:
+    *   Add tagged products with information
+    *   Add users
+    *   Simple analytics (age, gender) 
+-   All interaction performed through REST
+
+Exosite
+-   "Enterprise ready"
+-   Scalable, available
+-   Partners with Texas Instruments
+-   Offers services for hardware design and firmware development
+-   Dashboards
+
+Carriots
+-   RESTful API
+-   If-else-then rules support
+-   Scripting support
+-   No dashboard for data analysis, integration with 3rd party
+    applications supported
+-   Partners
+    * IBM
+    * Microsoft
+    * Cisco
+
+AllJoyn
+-   Open source
+-   Can be run locally or integrated with the cloud
+-   Offers device discovery, connectivity
+-   Users:
+    *   Spotify
+    *   Rhapsody
+    *   SoundCloud
+    *   Microsoft Windows 10
+    *   Qualcomm: Uses platform to develop low-power Wi-Fi
+        integration with devices
+
+SiteWhere
+-   Open source
+-   Local/cloud server
+-   Dashboards
+-   Data analysis/querying
+-   Device emulation
+-   Device permissions group
+-   Client for development
+
+Intel
+-   Microchip processors for IoT devices
+-   Development kits for each layer/tier
+-   Cooperation with McAfee for security
+
+KEYWORDS
+========
+
+Gateway
+Big Data
+Scalability
+Availability
+Security
+Connectivity
+Dashboard
+Query
+Analysis
+Real time stream
+Closed loop control
+Remote device management
+Local server
+Policy management
+Edge
+Whitelisting
+Agent (device)
+Over The Air (OVA)
+Protocol abstraction
+Edge analytics, perform analysis in the edge gateway
