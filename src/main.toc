@@ -15,11 +15,10 @@
 \contentsline {subsubsection}{\numberline {2.2.2}Sammanslagning av data}{8}
 \contentsline {subsubsection}{\numberline {2.2.3}S\IeC {\"a}kerhet}{9}
 \contentsline {subsubsection}{\numberline {2.2.4}Kommunikationsprotokoll}{9}
-\contentsline {subsubsection}{\numberline {2.2.5}Big data}{9}
 \contentsline {section}{\numberline {3}Metod}{9}
-\contentsline {section}{\numberline {4}Resultat}{9}
-\contentsline {subsection}{\numberline {4.1}Axeda}{9}
-\contentsline {subsection}{\numberline {4.2}ThingWorx}{10}
+\contentsline {section}{\numberline {4}Resultat}{10}
+\contentsline {subsection}{\numberline {4.1}Axeda}{10}
+\contentsline {subsection}{\numberline {4.2}ThingWorx}{11}
 \contentsline {subsection}{\numberline {4.3}Intel}{11}
 \contentsline {subsection}{\numberline {4.4}Raco Wireless}{11}
 \contentsline {subsection}{\numberline {4.5}EVERYTHNG}{11}

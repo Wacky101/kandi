@@ -86,22 +86,48 @@ enheter med 1 server. För att hantera 2000 uppkopplade enheter, måste systemet
 öka antalet servrar till 2. Förhållandet mellan antalet uppkopplade enheter
 och antalet servrar förblir konstant, då antalet uppkopplade enheter ökar.
 
-IoT-system måste klara av att hantera ett växande antal uppkopplade maskiner
-på ett stabilt sätt. För att systemet som helhet skall vara skalbart, måste
-även den underliggande plattformen vara det.
+IoT-system måste klara av att hantera ett växande antal uppkopplade klienter
+och ett ökande informationsflöde på ett stabilt sätt. För att systemet som
+helhet skall vara skalbart, måste även den underliggande plattformen vara det.
 
 \subsubsection{Sammanslagning av data}
 Information förmedlas i form av alarm och händelser mellan IoT-enablerade
 maskiner och det centrala systemet. I systemet är dessa alarm och händelser
 bundna till åtgärder som utförs då informationen når systemet. Åtgärderna
-kan vara enkla, som en uppdatering \cite{mashup_def} 
+kan utföra enkla uppgifter, som att uppdatera klientens fysiska läge
+i systemet. De kan också vara en del i en komplex kedja, där flera åtgärder
+utförs i en specifik ordning.
 
+IoT-plattformarna kan erbjuda sk. Mashup-funktioner, som skapar och hanterar
+regler för hurdana åtgärder skall utföras till följd av alarm och händelser.
+\cite{mashup_def} 
 
 \subsubsection{Säkerhet}
+För att definiera säkerhet i informationssystem, kan CIA-modellen användas.
+Ett säkert informationssystem tar ställning till datans 
+\Kommentti{konfidentialitet, integritet och tillgänglighet}. Konfidentialitet
+hänvisar till regler för vilka användare eller grupper har rättigheter
+att läsa och modifiera informationen. Integritet hänvisar till att innehållet
+av informationen inte förändras mellan faserna då en berättigad användare skapar
+informationen och då en berättigad användare läser informationen.
+Tillgängligheten av information hänvisar till att informationen är nåbar.
+\Kommentti{Sauce missing}
+
+Ett IoT-system med ett stort antal uppkopplade klienter är komplexiteten
+för att hantera datasekretess hög. IoT-plattformar tar ställning till detta
+genom att förse utvecklaren med verktyg för att hantera användarrättigheter
+mellan klienterna. Plattformarna kan erbjuda säkra överföringskanaler
+med hjälp av SSL/TLS-protokoll \Kommentti{Sauce för protokollen} för att 
+förhindra avlyssning eller modifiering av dataflödet mellan klienterna och det
+centrala systemet.
 
 \subsubsection{Kommunikationsprotokoll}
-
-\subsubsection{Big data}
+Data kan överföras från maskin till maskin med hjälp av flera olika protokoll.
+Eftersom valet av kommunikationsprotokoll för en IoT-klient beror på
+tillverkaren av klienten, måste IoT-systemen stöda ett flertal protokoll.
+IoT-plattformarna kan normalisera protokollen genom att erbjuda verktyg eller
+tjänster för att förvandla om de inkommande datapaketen till plattformarnas
+egna format.
 
 
 % --------------------------------------------------------------------
