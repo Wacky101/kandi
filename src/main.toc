@@ -2,20 +2,33 @@
 \select@language {swedish}
 \select@language {finnish}
 \select@language {swedish}
-\contentsline {section}{K\IeC {\"a}ytetyt symbolit ja lyhenteet}{4}
-\contentsline {section}{\numberline {1}Inledning}{5}
-\contentsline {subsection}{\numberline {1.1}Teoretisk bakgrund}{5}
-\contentsline {subsection}{\numberline {1.2}Problembeskrivning}{5}
-\contentsline {subsection}{\numberline {1.3}Problemformulering och syfte}{5}
-\contentsline {subsection}{\numberline {1.4}Avgr\IeC {\"a}nsningar}{5}
-\contentsline {subsection}{\numberline {1.5}Material och metoder}{5}
-\contentsline {section}{\numberline {2}Resultat}{6}
-\contentsline {subsection}{\numberline {2.1}Plattformernas egenskaper}{6}
-\contentsline {subsubsection}{\numberline {2.1.1}Axeda}{6}
-\contentsline {subsubsection}{\numberline {2.1.2}SiteWhere}{6}
-\contentsline {subsubsection}{\numberline {2.1.3}ThingWorx}{6}
-\contentsline {subsection}{\numberline {2.2}Gemensamma drag mellan plattformerna}{6}
-\contentsline {section}{\numberline {3}Analys}{6}
-\contentsline {section}{\numberline {4}Sammanfattning}{6}
-\contentsline {section}{L\IeC {\"a}hteet}{7}
-\contentsline {section}{\numberline {A}Bilagor}{7}
+\contentsline {section}{K\IeC {\"a}ytetyt symbolit ja lyhenteet}{5}
+\contentsline {section}{\numberline {1}Inledning}{6}
+\contentsline {subsection}{\numberline {1.1}Problembeskrivning}{6}
+\contentsline {subsection}{\numberline {1.2}Problemformulering och syfte}{6}
+\contentsline {subsection}{\numberline {1.3}Avgr\IeC {\"a}nsningar}{7}
+\contentsline {subsection}{\numberline {1.4}Material och metoder}{7}
+\contentsline {section}{\numberline {2}Internet of Things-plattform}{8}
+\contentsline {subsection}{\numberline {2.1}Teknisk plattform}{8}
+\contentsline {subsection}{\numberline {2.2}Utmaningar f\IeC {\"o}r IoT-system}{8}
+\contentsline {subsubsection}{\numberline {2.2.1}Skalbarhet}{8}
+\contentsline {subsubsection}{\numberline {2.2.2}Sammanslagning av data}{8}
+\contentsline {subsubsection}{\numberline {2.2.3}S\IeC {\"a}kerhet}{9}
+\contentsline {subsubsection}{\numberline {2.2.4}Kommunikationsprotokoll}{9}
+\contentsline {subsubsection}{\numberline {2.2.5}Big data}{9}
+\contentsline {section}{\numberline {3}Metod}{9}
+\contentsline {section}{\numberline {4}Resultat}{9}
+\contentsline {subsection}{\numberline {4.1}Axeda}{9}
+\contentsline {subsection}{\numberline {4.2}ThingWorx}{10}
+\contentsline {subsection}{\numberline {4.3}Intel}{11}
+\contentsline {subsection}{\numberline {4.4}Raco Wireless}{11}
+\contentsline {subsection}{\numberline {4.5}EVERYTHNG}{11}
+\contentsline {subsection}{\numberline {4.6}Exosite}{11}
+\contentsline {subsection}{\numberline {4.7}AllJoyn}{11}
+\contentsline {subsection}{\numberline {4.8}SiteWhere}{11}
+\contentsline {subsection}{\numberline {4.9}Windriver}{11}
+\contentsline {subsection}{\numberline {4.10}Carriots}{11}
+\contentsline {section}{\numberline {5}Analys}{11}
+\contentsline {section}{\numberline {6}Sammanfattning}{11}
+\contentsline {section}{L\IeC {\"a}hteet}{12}
+\contentsline {section}{\numberline {A}Bilagor}{13}

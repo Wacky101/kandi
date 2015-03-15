@@ -3,6 +3,8 @@ main.pdf: main.tex makroja.tex lahteet.bib luku_abstraktit.tex luku_alkusanat.te
 	bibtex main
 	pdflatex main
 	pdflatex main
+	pdflatex main
+	pdflatex main
 
 clean:
 	rm -f main.aux main.log main.bbl main.blg main.dvi main.toc tikkand-latex.zip tutkimussuunnitelma.aux tutkimussuunnitelma.log tutkimussuunnitelma.bbl tutkimussuunnitelma.blg tutkimussuunnitelma.dvi
@@ -15,3 +17,8 @@ tutkimussuunnitelma.pdf: tutkimussuunnitelma.tex lahteet.bib
 	bibtex tutkimussuunnitelma
 	pdflatex tutkimussuunnitelma
 	pdflatex tutkimussuunnitelma
+
+build:
+	rm -f main.pdf
+	make clean
+	make

@@ -1,53 +1,220 @@
 % --------------------------------------------------------------------
 
 \section{Inledning}
-Den snabba utevecklingen av Internet of Things har lett till 
+Internet of Things (IoT) är ett av de mest aktuella ämnen i företagsverksamhet
+och forskning. I industrin förses existerande maskiner med sensorer, som
+skickar och mottar information över Internet. Fel kan upptäckas proaktivt
+genom att analysera dataflödet från apparaterna och därmed minska
+underhållskostnader.
+På konsumentmarknaden utvecklas kroppsnära teknik, som samverkar med
+mobiltelefoner och synkroniseras med molntjänster.
 
-\subsection{Teoretisk bakgrund}
-Info om IIC och deras planer
+Ju större och mera komplexa IoT enablerade system blir, desto mera tid och
+kapital krävs det för att utveckla och upprätthålla dem.
+För att simplifiera och effektivera utvecklingen och underhållningen av
+IoT system, har IoT plattformar utvecklats. Plattformarna kan erbjudas
+som kompletta tjänster eller som programmeringsverktyg i form av
+integrerade utvecklingsmiljöer (IDE).
+
+
+\Kommentti{Lämna bort det här helt och hållet?}
 
 \subsection{Problembeskrivning}
-Ett flertal IoT plattformer har nått användare under den senaste tiden.
-Antalet tillämpningsområden för IoT enablerade system är massivt,
-vilket gör det arbetsdrygt för utvecklaren att välja en lämplig plattform
-till sitt behov.
+Eftersom IoT systemenas egenskaper och krav varierar från fall till fall,
+gör även de plattformar som erbjuds för att utveckla dem. För att kunna
+välja rätt plattform till rätt ändamål, krävs det information om hurdana
+egenskaper och funktioner plattformar har.
+
+Ett IoT system kan bestå av maskiner som inte ligger innanför samma
+interna nätverk. De kan även bearbeta information, som endast utnämnda
+personer får hantera. Då är det viktigt att plattformen stöder
+funktioner för datasäkherhet och hantering av användarroller.
+Ett annat system kan expandera snabbt på en kort tid genom att öka dess antal
+IoT enablerade objekt. Då är det viktigt att plattformen erbjuder möjligheter
+för horisontell skalbarhet.
+
+Det ökande antalet IoT plattformar på marknaden gör valet arbetsdrygt.
+Därför behövs det kompilerad information om hur plattformarna ställer sig
+mot varandra.
+
 
 \subsection{Problemformulering och syfte}
-Syftet med arbetet är att kartlägga tillängliga IoT plattformer i förhållande
+Syftet med arbetet är att kartlägga tillängliga IoT plattformar i förhållande
 till varandra på basis av deras egenskaper. Samtidigt kommer arbetet
-att identifiera gemensamma drag mellan plattformerna. 
+att identifiera gemensamma drag mellan plattformarna. 
 
 \subsection{Avgränsningar}
-Arbetet lägger fokuset på plattformernas funktionaliter, egenskaper, förmågor
+Arbetet lägger fokuset på plattformarnas funktionaliter, egenskaper, förmågor
 och tillämpningsmiljöer.
-Arbetet tar inte ställning till plattformernas ställning på marknaden.
+Arbetet tar inte ställning till plattformarnas ställning på marknaden.
 Arbetet handlar inte heller om varje plattforms tekniska arkitektur.
 
 \subsection{Material och metoder}
 Forskningen utfördes i form av en empirisk undersökning. Information om varje
 plattform hittades från plattformutvecklarnas nätsidor och dokumentation.
 
+\pagebreak
+
 
 
 % --------------------------------------------------------------------
+
+\section{Internet of Things-plattform}
+\label{sec:esimluku}
+
+
+\subsection{Teknisk plattform}
+
+En teknisk plattform är en kombination av hårdvara och mjukvara, som
+tillsammans bildar en miljö, där applikationer kan utvecklas och köras i.
+Plattformar underlättar utvecklingen av applikationer, eftersom utvecklaren
+kan fokusera på själva lösningen istället och delegera infrastrukturen
+till plattformen.
+Detta gäller även i fallet av IoT plattformar. Utvecklaren kan allokera
+största delen av sina resurser till att skapa värde för slutanvändaren,
+medan plattformen ansvarar för de funktioner som stöder utvecklingen.
+
+\subsection{Utmaningar för IoT-system}
+
+\subsubsection{Skalbarhet}
+Skalbarhet är ett mått på hur ett datasystem hanterar ett ökande antal 
+uppkopplade maskiner \cite{scalability_def}. Ett horisontellt skalbart system
+kan öka det maximala antalet maskiner som kan kopplas upp genom att öka
+antalet fysiska servrar.
+Exempelvis kan ett horisontellt skalbart system hantera 1000 uppkopplade
+enheter med 1 server. För att hantera 2000 uppkopplade enheter, måste systemet
+öka antalet servrar till 2. Förhållandet mellan antalet uppkopplade enheter
+och antalet servrar förblir konstant, då antalet uppkopplade enheter ökar.
+
+IoT-system måste klara av att hantera ett växande antal uppkopplade maskiner
+på ett stabilt sätt. För att systemet som helhet skall vara skalbart, måste
+även den underliggande plattformen vara det.
+
+\subsubsection{Sammanslagning av data}
+Information förmedlas i form av alarm och händelser mellan IoT-enablerade
+maskiner och det centrala systemet. I systemet är dessa alarm och händelser
+bundna till åtgärder som utförs då informationen når systemet. Åtgärderna
+kan vara enkla, som en uppdatering \cite{mashup_def} 
+
+
+\subsubsection{Säkerhet}
+
+\subsubsection{Kommunikationsprotokoll}
+
+\subsubsection{Big data}
+
+
+% --------------------------------------------------------------------
+
+\section{Metod}
+\label{sec:esimluku}
+\Kommentti{Skriv in kort backgrundsinformation om företagen}
+Forskningen utfördes som en explorativ, kvalitativ undersökning och
+Industrial Internet Consortiums (IIC) nätsida fungerade som startpunkt för den.
+IIC är ett konsortium, bildat av bl.a. Intel, IBM och AT\&T, som jobbar
+för att utveckla \Kommentti{standarder, och gemensamma arkitekturer} inom IoT.
+Till IICs medlemmar hör över 100 företag, universitet och inrättningar, som
+delar på ansvaret för att utveckla globala IoT lösningar.
+Genom att granska medlemmarnas nätsidor, identifierades IoT plattformar.
+Ifall en medlem samarbetade med ett eller flera företag, som också länkades
+till IoT, kunde forskningen utvidgas till dessa företag.
+Information om plattformarnas egenskaper och funktioner hittades genom
+utvecklarnas nätsidor, vitböcker och plattformarnas dokumentation.
+
+\Kommentti{Jämför resultatet med teorin -> kategoriserar plattformerna
+enligt egenskaperna}
+
+\Kommentti{Avvikande fall -> bilda egen grupp}
+
+\Kommentti{Ta i beaktande trovärdigheten på vad företagen skriver. Om
+möjligt så granskades dokumentationen för att verifiera att plattformerna
+stöder de funktioner som de säger sig göra. Cross-checking mellan 
+sidorna för att kolla partners}
 
 \section{Resultat}
 \label{sec:esimluku}
 
-\subsection{Plattformernas egenskaper}
+\subsection{Axeda}
+Inledning:
+Namn 
 
-\subsubsection{Axeda}
+"Utplacering":
+Open source/propertiär, cloud/on-premise
 
-\subsubsection{SiteWhere}
+Hög nivå:
+Vilka nivåer
 
-\subsubsection{ThingWorx}
+Komponent nivå:
+Kort om varje nivå
 
-\subsection{Gemensamma drag mellan plattformerna}
+%%%%%%%
+Axeda erbjuder sin plattform i form av en molntjänst. Plattformen omfattar
+flera skikt, ända från grafiska användargränssnitt till själva hårdvaran.
+Själva plattformen är proprietär programvara, men Axeda erbjuder flera 
+gränssnitt för att få tillgång till plattformens funktioner.
 
-% --------------------------------------------------------------------
+En utvecklare kan integrera en maskin till plattformen med hjälp av plattformens
+programbibliotek. Programbiblioteket normaliserar och enkrypterar
+dataflödet mellan maskinerna och molnet i enhet med plattformens eget
+protokoll.
+
+Molntjänsten lagrar information om de uppkopplade maskinernas fysiska lägen och
+tillstånd. En utvecklare kan använda plattformens användargränssnitt för att
+definiera regler för hur alarm och händelser från maskinerna skall hanteras.
+Användargränssnittet stöder hantering av uppkopplade maskiner på distans och
+all information som samlas in av plattformen kan sökas upp och visualiseras
+genom modifierbara dashboards.
+
+
+
+
+%% Old stuff BEGIN
+Axeda erbjuder sin plattform som en molntjänst. Plattformen stöder 
+funktioner på flera skikt, ända från applikationsnivån till datapaketnivån.
+På applikationsnivå erbjuder plattformen grafiska användargränssnitt för
+visualisering av insamlad information från IoT systemet. Plattformen erbjuder
+även grafiska verktyg för att hantera uppkopplade maskiner på distans.
+För att kunna integrera maskiner med Axedas molntjänst, erbjuder plattformen 
+verktyg för detta ändamål. Verktygena förser maskiner, som överför data 
+trådlöst, med stöd för Axedas eget kommunikationsprotokoll AMMP 
+(Adaptive Machine Messaging Protocol). Plattformen innehåller även verktyg
+som hanterar användarrättigheter mellan maskinerna.
+Axedas molntjänst är byggd för horisontell skalning. Tjänsten är godkänd
+enligt ISO 27001 standaren, vilket innebär att infrastrukturen uppfyller
+standardenliga säkerhetskrav. \Kommentti{Referens till standarden}
+%% Old stuff END
+
+\subsection{ThingWorx}
+ThingWorx erbjuder en plattform med fokuset på att utveckla IoT enablerade
+applikationer. Plattformen består av verktyg för att skapa användargränssnitt,
+anpassade till användarnas behov, och för att bestämma regler för hur
+data flöder mellan systemets maskiner. Användargränssnitten kan utvecklas
+både genom drag och släpp-metoder och programmering.
+Plattformen erbjuder funktioner för dataanalys och interaktiv kollaboration.
+ThingWorx erbjuder integrationsmöjligheter med Axedas egen plattform.
+
+
+\subsection{Intel}
+
+\subsection{Raco Wireless}
+
+\subsection{EVERYTHNG}
+
+\subsection{Exosite}
+
+\subsection{AllJoyn}
+
+\subsection{SiteWhere}
+
+\subsection{Windriver}
+
+\subsection{Carriots}
+
+% -------------------------------------------------------------------
 
 \section{Analys}
 \label{sec:esimluku}
+
 
 
 \section{Sammanfattning}

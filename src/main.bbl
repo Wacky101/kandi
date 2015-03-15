@@ -1,4 +1,4 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{2}
 \input babelbst.tex
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
@@ -7,5 +7,20 @@
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Sun \bbletal{}.(2005)Sun, Chen, \bbland{} Wu]{scalability_def}
+Xian-He Sun, Yong Chen \bbland{} Ming Wu.
+\newblock Scalability of heterogeneous computing.
+\newblock  \emph{Parallel Processing, 2005. ICPP 2005. International Conference
+  on}, \bblpages{} 557--564, June 2005.
+\newblock \doi{10.1109/ICPP.2005.69}.
+
+\bibitem[Zhiquan \bbletal{}.(2011)Zhiquan, Nan, Bo, \bbland{}
+  Junliang]{mashup_def}
+Du~Zhiquan, Yu~Nan, Cheng Bo \bbland{} Chen Junliang.
+\newblock Data mashup in the internet of things.
+\newblock  \emph{Computer Science and Network Technology (ICCSNT), 2011
+  International Conference on}, \bblvolume{}~2, \bblpages{} 948--952, Dec 2011.
+\newblock \doi{10.1109/ICCSNT.2011.6182118}.
 
 \end{thebibliography}
