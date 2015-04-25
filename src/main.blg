@@ -4,44 +4,50 @@ The top-level auxiliary file: main.aux
 The style file: aaltosci_t.bst
 Database file #1: lahteet.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 2 entries,
+Warning--empty year in alljoyn
+Warning--empty year in carriots
+Warning--empty year in axeda
+Warning--empty year in racowireless
+Warning--empty year in windriver
+You've used 7 entries,
             3106 wiz_defined-function locations,
-            674 strings with 5852 characters,
-and the built_in function-call counts, 1346 in all, are:
-= -- 122
-> -- 67
-< -- 3
-+ -- 23
-- -- 21
-* -- 103
-:= -- 192
-add.period$ -- 8
-call.type$ -- 2
-change.case$ -- 11
-chr.to.int$ -- 2
-cite$ -- 4
-duplicate$ -- 66
-empty$ -- 107
-format.name$ -- 25
-if$ -- 298
+            699 strings with 6458 characters,
+and the built_in function-call counts, 2836 in all, are:
+= -- 257
+> -- 117
+< -- 8
++ -- 43
+- -- 36
+* -- 168
+:= -- 427
+add.period$ -- 28
+call.type$ -- 7
+change.case$ -- 26
+chr.to.int$ -- 7
+cite$ -- 19
+duplicate$ -- 136
+empty$ -- 262
+format.name$ -- 45
+if$ -- 618
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 2
-newline$ -- 23
-num.names$ -- 8
-pop$ -- 31
+newline$ -- 53
+num.names$ -- 28
+pop$ -- 106
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 19
 quote$ -- 0
-skip$ -- 55
+skip$ -- 105
 stack$ -- 0
-substring$ -- 60
-swap$ -- 25
+substring$ -- 70
+swap$ -- 30
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 22
-warning$ -- 0
-while$ -- 10
+type$ -- 77
+warning$ -- 5
+while$ -- 25
 width$ -- 0
-write$ -- 41
+write$ -- 106
+(There were 5 warnings)

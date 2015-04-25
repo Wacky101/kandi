@@ -110,18 +110,18 @@
 
 % ----------------- Muuttujia -----------------------------------------
 
-\def\AALTOFI{Aalto-yliopisto \\ 
+\def\AALTOSV{Aalto-yliopisto \\ 
 Perustieteiden korkeakoulu \\
 Tietotekniikan koulutusohjelma \\}
-\def\AALTOSV{Aalto-universitetet \\ 
+\def\AALTOFI{Aalto-universitetet \\ 
 Högskolan för teknikvetenskaper \\
 Examensprogrammet för datateknik \\}
 \def\AALTOEN{Aalto University \\ 
 School of Science \\
 Degree Program of Computer Science and Engineering \\}
 
-\def\THESISFI{Kandidaatintyö}
-\def\THESISSV{Kandidatarbete}
+\def\THESISSV{Kandidaatintyö}
+\def\THESISFI{Kandidatarbete}
 \def\THESISEN{Bachelor's Thesis}
 
 \def\YEAR#1{\gdef\@YEAR{#1}}
@@ -202,8 +202,8 @@ Degree Program of Computer Science and Engineering \\}
 % "Ongelmia" parboxin useampirivisissä: viritelty
 %    \parbox[t][\height+4pt]{117.7mm}.
 
-\newenvironment{fiabstract}{
-\begin{otherlanguage}{finnish}
+\newenvironment{svabstract}{
+\begin{otherlanguage}{swedish}
 \makebox[90mm][l]{Aalto-yliopisto}%
 \makebox[69.2mm][r]{KANDIDAATINTYÖN} \\
 \makebox[90mm][l]{Perustieteiden korkeakoulu}%
@@ -246,8 +246,8 @@ Degree Program of Computer Science and Engineering \\}
 \end{otherlanguage}
 \clearpage}
 
-\newenvironment{svabstract}{
-\begin{otherlanguage}{swedish}
+\newenvironment{fiabstract}{
+\begin{otherlanguage}{finnish}
 \makebox[90mm][l]{Aalto-universitetet}%
 \makebox[69.2mm][r]{SAMMANDRAG AV} \\
 \makebox[90mm][l]{Högskolan för teknikvetenskaper}%

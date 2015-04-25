@@ -1,57 +1,80 @@
 % --------------------------------------------------------------------
 
 \section{Inledning}
-Internet of Things (IoT) är ett av de mest aktuella ämnen i företagsverksamhet
-och forskning. I industrin förses existerande maskiner med sensorer, som
-skickar och mottar information över Internet. Fel kan upptäckas proaktivt
-genom att analysera dataflödet från apparaterna och därmed minska
-underhållskostnader.
-På konsumentmarknaden utvecklas kroppsnära teknik, som samverkar med
-mobiltelefoner och synkroniseras med molntjänster.
+Internet of Things (IoT) är ett begrepp som fått stor synlighet inom både
+industrin och konsumentmarknaden. Företag strävar efter att digitalisera sin
+verksamhet med hjälp av IoT. Detta ger företagen tillgång till värdefull
+realtidsinformation om sina tjänster, produkter, infrastrukturer och kunder.
+Förtagen kan utnyttja realtidsinformationen till att minska 
+upprätthållningskostnader genom att identifiera maskinfel förrän de hinner
+uppstå. IoT-system automatiserar arbete genom att låta maskiner kommunicera
+sinnsemellan och minskar därmed behovet för männsklig interaktion.
+På konsumentmarknaden har IoT-lösningar som bl.a. aktivitetsarmband, smarta hus
+och smart TV:n uppståt. 
 
-Ju större och mera komplexa IoT enablerade system blir, desto mera tid och
-kapital krävs det för att utveckla och upprätthålla dem.
-För att simplifiera och effektivera utvecklingen och underhållningen av
-IoT system, har IoT plattformar utvecklats. Plattformarna kan erbjudas
-som kompletta tjänster eller som programmeringsverktyg i form av
-integrerade utvecklingsmiljöer (IDE).
+Då IoT-system växer i storlek och ökar i komplexitet, ökar även 
+upprätthållningskostnader och risker för systemfel.
+För att hantera komplexiteten i stora IoT-system, kan företag använda
+IoT-plattformar. IoT-plattformar effektiverar utveckligen av IoT-lösningar
+och gör det lättare för utvecklare att hantera ett ökande antal uppkopplade
+maskiner.
 
+%#GAMMALT BEGIN
+%Internet of Things (IoT) är ett av de mest aktuella ämnen i företagsverksamhet
+%och forskning. I industrin förses existerande maskiner med sensorer, som
+%skickar och mottar information över Internet. Fel kan upptäckas proaktivt
+%genom att analysera dataflödet från apparaterna och därmed minska
+%underhållskostnader.
+%På konsumentmarknaden utvecklas kroppsnära teknik, som samverkar med
+%mobiltelefoner och synkroniseras med molntjänster.
 
-\Kommentti{Lämna bort det här helt och hållet?}
+%Ju större och mera komplexa IoT enablerade system blir, desto mera tid och
+%kapital krävs det för att utveckla och upprätthålla dem.
+%För att simplifiera och effektivera utvecklingen och underhållningen av
+%IoT system, har IoT plattformar utvecklats. Plattformarna kan erbjudas
+%som kompletta tjänster eller som programmeringsverktyg i form av
+%integrerade utvecklingsmiljöer (IDE).
+%#GAMMALT END
+
 
 \subsection{Problembeskrivning}
-Eftersom IoT systemenas egenskaper och krav varierar från fall till fall,
-gör även de plattformar som erbjuds för att utveckla dem. För att kunna
-välja rätt plattform till rätt ändamål, krävs det information om hurdana
-egenskaper och funktioner plattformar har.
-
-Ett IoT system kan bestå av maskiner som inte ligger innanför samma
-interna nätverk. De kan även bearbeta information, som endast utnämnda
-personer får hantera. Då är det viktigt att plattformen stöder
-funktioner för datasäkherhet och hantering av användarroller.
-Ett annat system kan expandera snabbt på en kort tid genom att öka dess antal
-IoT enablerade objekt. Då är det viktigt att plattformen erbjuder möjligheter
-för horisontell skalbarhet.
-
-Det ökande antalet IoT plattformar på marknaden gör valet arbetsdrygt.
-Därför behövs det kompilerad information om hur plattformarna ställer sig
-mot varandra.
+För att företag skall lyckas lansera IoT-system med hjälp av IoT-plattformar,
+kräver utvecklarna information om kapaciteten och egenskaperna hos 
+plattformarna.
+Valet av IoT-plattform inverkar på IoT-systemets framgång på samma sätt
+som valet av teknologi påverkar traditionella IT-system.
+Det ökande antalet tillgängliga IoT-plattformar för med sig många
+valmöjligheter, men försvårar samtidigt valet av rätt plattform för rätt
+ändamål. Kompilerad information om egenskaper hos tillgängliga IoT-plattformar 
+underlättar valet av plattform.
 
 
-\subsection{Problemformulering och syfte}
-Syftet med arbetet är att kartlägga tillängliga IoT plattformar i förhållande
-till varandra på basis av deras egenskaper. Samtidigt kommer arbetet
-att identifiera gemensamma drag mellan plattformarna. 
+\subsection{Syfte}
+Syftet med detta arbete är att identifiera allmänna egenskaper och funktioner
+hos IoT-plattformar, samt undersöka hur tillgängliga IoT-plattformar stöder
+dessa funktioner.
 
 \subsection{Avgränsningar}
-Arbetet lägger fokuset på plattformarnas funktionaliter, egenskaper, förmågor
-och tillämpningsmiljöer.
-Arbetet tar inte ställning till plattformarnas ställning på marknaden.
-Arbetet handlar inte heller om varje plattforms tekniska arkitektur.
+Detta arbete behandlar endast egenskaper och funktioner hos IoT-plattformar.
+Arbetet tar inte ställning till plattformarnas ställning på marknaden och
+behandlar inte plattformarnas tekniska arkitektur på detaljnivå.
 
 \subsection{Material och metoder}
-Forskningen utfördes i form av en empirisk undersökning. Information om varje
-plattform hittades från plattformutvecklarnas nätsidor och dokumentation.
+Forskningen utfördes som en explorativ, kvalitativ undersökning och
+Industrial Internet Consortiums (IIC) nätsida fungerade som startpunkt för den.
+IIC är ett konsortium, bildat av bl.a. Intel, IBM och AT\&T, som jobbar
+för att utveckla IoT-standarder. Över 100 företag och universitet är medlemmar 
+i IIC och dessa delar på ansvaret för att utveckla globala IoT lösningar.
+Genom att granska medlemmarnas nätsidor, identifierades IoT plattformar.
+Ifall en medlem samarbetade med ett eller flera företag, som också länkades
+till IoT, kunde forskningen utvidgas till dessa företag.
+Information om plattformarnas egenskaper och funktioner hittades genom
+utvecklarnas nätsidor, vitböcker och plattformarnas dokumentation.
+
+De egentliga egenskaperna hos plattformarna kan avvika från resultaten
+som presenteras i detta arbete. Detta beror på att resultaten bygger på
+information given av plattformutvecklarna själva, och kräver verifiering
+av en utomstående part.
 
 \pagebreak
 
@@ -61,7 +84,7 @@ plattform hittades från plattformutvecklarnas nätsidor och dokumentation.
 
 \section{Internet of Things-plattform}
 \label{sec:esimluku}
-
+Detta kapitel 
 
 \subsection{Teknisk plattform}
 
@@ -74,7 +97,7 @@ Detta gäller även i fallet av IoT plattformar. Utvecklaren kan allokera
 största delen av sina resurser till att skapa värde för slutanvändaren,
 medan plattformen ansvarar för de funktioner som stöder utvecklingen.
 
-\subsection{Utmaningar för IoT-system}
+\subsection{Typiska drag för Internet of Things-plattformar}
 
 \subsubsection{Skalbarhet}
 Skalbarhet är ett mått på hur ett datasystem hanterar ett ökande antal 
@@ -129,86 +152,33 @@ IoT-plattformarna kan normalisera protokollen genom att erbjuda verktyg eller
 tjänster för att förvandla om de inkommande datapaketen till plattformarnas
 egna format.
 
+\subsection{Övriga drag}
+
 
 % --------------------------------------------------------------------
 
-\section{Metod}
-\label{sec:esimluku}
-\Kommentti{Skriv in kort backgrundsinformation om företagen}
-Forskningen utfördes som en explorativ, kvalitativ undersökning och
-Industrial Internet Consortiums (IIC) nätsida fungerade som startpunkt för den.
-IIC är ett konsortium, bildat av bl.a. Intel, IBM och AT\&T, som jobbar
-för att utveckla \Kommentti{standarder, och gemensamma arkitekturer} inom IoT.
-Till IICs medlemmar hör över 100 företag, universitet och inrättningar, som
-delar på ansvaret för att utveckla globala IoT lösningar.
-Genom att granska medlemmarnas nätsidor, identifierades IoT plattformar.
-Ifall en medlem samarbetade med ett eller flera företag, som också länkades
-till IoT, kunde forskningen utvidgas till dessa företag.
-Information om plattformarnas egenskaper och funktioner hittades genom
-utvecklarnas nätsidor, vitböcker och plattformarnas dokumentation.
-
-\Kommentti{Jämför resultatet med teorin -> kategoriserar plattformerna
-enligt egenskaperna}
-
-\Kommentti{Avvikande fall -> bilda egen grupp}
-
-\Kommentti{Ta i beaktande trovärdigheten på vad företagen skriver. Om
-möjligt så granskades dokumentationen för att verifiera att plattformerna
-stöder de funktioner som de säger sig göra. Cross-checking mellan 
-sidorna för att kolla partners}
-
+\pagebreak
 \section{Resultat}
 \label{sec:esimluku}
 
 \subsection{Axeda}
-Inledning:
-Namn 
-
-"Utplacering":
-Open source/propertiär, cloud/on-premise
-
-Hög nivå:
-Vilka nivåer
-
-Komponent nivå:
-Kort om varje nivå
-
-%%%%%%%
 Axeda erbjuder sin plattform i form av en molntjänst. Plattformen omfattar
 flera skikt, ända från grafiska användargränssnitt till själva hårdvaran.
 Själva plattformen är proprietär programvara, men Axeda erbjuder flera 
-gränssnitt för att få tillgång till plattformens funktioner.
+gränssnitt för att få tillgång till plattformens funktioner. \cite{axeda}
 
 En utvecklare kan integrera en maskin till plattformen med hjälp av plattformens
 programbibliotek. Programbiblioteket normaliserar och enkrypterar
 dataflödet mellan maskinerna och molnet i enhet med plattformens eget
-protokoll.
+protokoll. \cite{axeda}
 
 Molntjänsten lagrar information om de uppkopplade maskinernas fysiska lägen och
 tillstånd. En utvecklare kan använda plattformens användargränssnitt för att
 definiera regler för hur alarm och händelser från maskinerna skall hanteras.
 Användargränssnittet stöder hantering av uppkopplade maskiner på distans och
 all information som samlas in av plattformen kan sökas upp och visualiseras
-genom modifierbara dashboards.
+genom modifierbara dashboards. \cite{axeda}
 
-
-
-
-%% Old stuff BEGIN
-Axeda erbjuder sin plattform som en molntjänst. Plattformen stöder 
-funktioner på flera skikt, ända från applikationsnivån till datapaketnivån.
-På applikationsnivå erbjuder plattformen grafiska användargränssnitt för
-visualisering av insamlad information från IoT systemet. Plattformen erbjuder
-även grafiska verktyg för att hantera uppkopplade maskiner på distans.
-För att kunna integrera maskiner med Axedas molntjänst, erbjuder plattformen 
-verktyg för detta ändamål. Verktygena förser maskiner, som överför data 
-trådlöst, med stöd för Axedas eget kommunikationsprotokoll AMMP 
-(Adaptive Machine Messaging Protocol). Plattformen innehåller även verktyg
-som hanterar användarrättigheter mellan maskinerna.
-Axedas molntjänst är byggd för horisontell skalning. Tjänsten är godkänd
-enligt ISO 27001 standaren, vilket innebär att infrastrukturen uppfyller
-standardenliga säkerhetskrav. \Kommentti{Referens till standarden}
-%% Old stuff END
 
 \subsection{ThingWorx}
 ThingWorx erbjuder en plattform med fokuset på att utveckla IoT enablerade
@@ -216,32 +186,209 @@ applikationer. Plattformen består av verktyg för att skapa användargränssnit
 anpassade till användarnas behov, och för att bestämma regler för hur
 data flöder mellan systemets maskiner. Användargränssnitten kan utvecklas
 både genom drag och släpp-metoder och programmering.
-Plattformen erbjuder funktioner för dataanalys och interaktiv kollaboration.
+Plattformen erbjuder funktioner för dataanalys och interaktiv kollaboration
+mellan utvecklarna av IoT-tjänster.
 ThingWorx erbjuder integrationsmöjligheter med Axedas egen plattform.
 
 
 \subsection{Intel}
 
-\subsection{Raco Wireless}
+\subsection{RacoWireless}
+RacoWireless Omega Management Suite (OMS) är en molnbaserad plattform som lägger 
+tyngdpunkten på spårning och lagring av data från trådlöst uppkopplade maskiner.
+Plattformen erbjuder flera mobilvänliga dashboards för analysering och 
+visualisering av information. \cite{racowireless}
+
+Plattformen stöder både SOAP- och REST-gränssnitt, vars funktioner kan
+användas för att hantera uppkopplade maskiner. Med hjälp av gränssnitten kan 
+utvecklare hantera maskinerna på distans och bevaka dataflödet till och från
+dem. Övriga funktioner som OMS erbjuder är fakturering av mobildata samt
+SMS-kommunikation med de uppkopplade maskinerna. \cite{racowireless}
+
+RacoWireless Omega DevCloud är ett verktyg som kan användas för att
+integrera utomstående applikationer och maskiner till RacoWireless egen 
+IoT-plattform. Integrationen sker med Omega DevClouds REST-APIs. RacoWireless
+erbjuder även en mobilapplikation som kan simulera en egentlig 
+uppkopplad klient. \cite{racowireless}
+
 
 \subsection{EVERYTHNG}
 
 \subsection{Exosite}
+\Kommentti{NEW 14.04.2015}
+
 
 \subsection{AllJoyn}
+AllJoyn är en plattform med öppen källkod som möjliggör att maskiner kan
+upptäcka varann över ett lokalt nätverk. Fastän AllJoyn är huvudsakligen
+avsedd för kommunikation av närbelägna maskiner, har noder utvecklats för att
+låta maskiner kommunicera med utomstående molntjänster. \cite{alljoyn}
+
+AllJoyns ramverk innehåller alla verktyg för att utveckla AllJoyn-enablerade
+applikationer. Ramverket omfattar funktioner för upptäckning, säkerhet, 
+händelser och sessioner. AllJoyn erbjuder inga dashboards för grafisk
+granskning av de uppkopplade klienterna. Däremot kan varje uppkopplad maskin
+förmedla enkla grafiska komponenter som applikationer kan visa för användaren.
+Dessa komponenter innehåller information om den uppkopplade maskinen och
+erbjuder ett gränssnitt för att kontrollera maskinen genom applikationen.
+\cite{alljoyn}
+
+
 
 \subsection{SiteWhere}
+SiteWhere är en IoT-plattform med öppen källkod och fungerar både lokalt
+och i molnet. Utvecklare kan nå data i plattformen direkt genom plattformens
+REST-gränssnitt eller via ett webläsarbaserat användargränssnitt. Plattformen
+stöder långtids datalagring, integration med utomstående molntjänster och
 
-\subsection{Windriver}
+
+\subsection{Wind River}
+Wind River Edge Management System är en molnbaserad plattform som omfattar
+nivåer från de fysiska maskinerna till gränssnittet för applikationer.
+\cite{windriver}
+
+
 
 \subsection{Carriots}
+Carriots är en PaaS som kan köras både i det offentliga molnet och på privata
+servrar. Plattformen är skalbar och kan hantera upp till
+hundratals miljoner uppkopplade maskiner. Maskinerna kommunicerar med
+plattformen genom Carriots säkrade REST-API.\cite{carriots}
+
+De huvudsakliga funktionerna i Carriots är datalagring, hantering av
+regler för alarm och händelser, integration till andra molntjänster och
+distanshantering av uppkopplade maskiner. Plattformen möjliggör även hantering
+av flera samtida projekt. Däremot erbjuder plattformen inga 
+dashboards för visualisering av data, men utomstående applikationer kan 
+integreras i Carriots för detta ändamål.\cite{carriots}
 
 % -------------------------------------------------------------------
 
+\pagebreak
 \section{Analys}
 \label{sec:esimluku}
 
+Detta kapitel analysera
+
+\subsection{Kommunikation}
+Det finns inget enhetligt sätt för hur IoT-plattformarna hanterar 
+kommunikationen mellan de uppkopplade maskiner och plattformen. 
+Somliga plattformar kopplar klienterna till systemet genom egen mjukvara som
+installeras på klienterna. Mjukvaran sköter kommunikationen mellan klienterna
+och plattformen och binder därmed klienterna tätt till plattformen. Andra 
+plattformar erbjuder endast gränssnitt för kommunikation mellan maskinerna och 
+plattformen. Ansvaret för hur klienterna tar kontakt med plattformen förs över
+till klientuvecklaren, vilket innebär en lösare koppling mellan klienterna
+och plattformen.
+\newline
+\newline
+Axeda och AllJoyn är exempel på plattformar som sköter uppkopplingen med hjälp
+av sina egna programbibliotek. Klienterna samverkar med plattformarna
+genom att kalla på funktioner i plattformarnas programbibliotek. 
+Programbiblioteken hanterar data i form av objekt istället för REST-meddelanden,
+vilket döljer nätkommunikationen från utvecklaren och förenklar därmed
+utvecklingsprocessen. Nackdelen med användningen av plattformspecifika
+programbibliotek är att klienterna är tätt bundna till plattformen.
+Detta gör det svårare att skapa enhetliga standarder för samverkan mellan
+olika IoT-plattformar, eftersom ett plattformspecifikt programbibliotek fungerar
+endast med en plattform. Ett annat problem med dessa programbibliotek är att
+för att en maskin skall kunna kopplas upp till plattformen, måste
+plattformutvecklaren se till att ett programbibliotek är tillgängligt för
+denna maskin. Ifall plattformutvecklaren inte stöder en viss maskinmodell måste
+utvecklaren av IoT-tjänster välja en annan modell och är därmed beroende av
+plattformutvecklarens beslut för stödda maskiner.
+\newline
+\newline
+ThingWorx, Carriots och Exosite hanterar kommunikationen mellan klienterna
+och plattformen med HTTP- eller socket-baserade gränssnitt medan 
+klientutvecklaren själv implementerar kommunikationslogiken för klienten.
+Detta innebär att utvecklaren av IoT-tjänster kan fritt välja en maskinmodell
+med nätverkskort för klienten, vilket inte alltid är möjligt då en plattform 
+kräver användningen av ett specifikt programbibliotek.
+\pagebreak
+
+\subsection{Applikationer}
+Medan de undersökta plattformarna hanterar säkerhet och skalbarhet på liknande
+sätt, varierar deras applikationsnivåer kraftigare. En del plattformar
+erbjuder möjligheten att på grafisk väg framställa användargränssnitt.
+Andra plattformar saknar verktyg för visualisering av information och erbjuder
+endast gränssnitt för att nå informationen i IoT-systemet. Dessa plattformar
+överlåter ansvaret till utvecklaren av IoT-tjänsten för att skapa
+användargränssnitt. Det finns även plattformar som kombinerar dessa två sätt
+genoma att erbjuda färdiga grafiska komponenter som utvecklarna kan utvidga
+eller konfigurera enligt behov.
+\newline
+\newline
+Fördelarna med grafiskt skapade dashboards är att utvecklingen av
+användargränssnitt försnabbas och utvecklarna sparar arbete genom att 
+återanvända existerande grafiska komponenter. Med hjälp av drag-och-släpp-
+editering av dashboards, kan personer utan programmeringskunskaper skapa egna 
+vyer med grafer och andra interaktiva komponenter enligt behov. Detta
+ger personer inom t.ex. företagets ledning möjlighet att få en översikt över
+IoT-systemets tillstånd och historia och förminskar därmed rapporteringsarbetet.
+Nackdelen med grafiskt skapade användargränssnitt är att utvecklaren är 
+begränsad till de komponenter som plattformutvecklaren erbjuder. Axeda har löst
+detta problem genom att låta utvecklarna själv utvidga komponenterna.
+Utvecklarna kan använda sig av egen källkod för att skapa vyer, anpassade för
+specifika ändamål.
+\newline
+\newline
+Carriots och EVRYTHNG har inga egna grafiska komponenter för visualisering
+av data men erbjuder istället REST-baserade gränssnitt för att låta utvecklaren
+hämta information från IoT-systemet. Utvecklaren kan välja mellan att skapa
+de grafiska elementen eller att integrera utomstående dashboard-tjänster till
+plattformen. Detta ger utvecklaren största möjliga flexibilitet i valet av hur 
+användargränssnittet skall se ut och fungera.
+\newline
+\newline
+
+\subsection{Skalbarhet och säkerhet}
+De undersökta plattformarna har i allmänhet tagit ställning till skalbarhet
+och säkerhet på samma sätt. Flera av plattformarna är gjorda för att skalas upp
+från enskilda servrar till omfattande molntjänster. 
 
 
+\subsection{Utvecklingsverktyg}
+För att underlätta utvecklingsprocessen erbjuder majoriteten av de undersökta 
+plattformarna verktyg för att hjälpa utvecklarna. Verktygen kan stöda själva
+programmeringen av IoT-applikationer eller hjälpa utvecklarna genom
+att förse dem med information och utvecklingsförslag.
+Axeda, Carriots och EVRYTHNG erbjuder webläsarbaserade utvecklingsverktyg för 
+att skapa, redigera och radera IoT-objekt. Flera av de undersökta plattformarna 
+har forum där användare kan vara i kontakt med både plattformutvecklarna
+och andra användare. Forumen är effektiva kanaler för rådgivning och delning
+av exempel från verkliga IoT-applikationer. Plattformutvecklarna kan även vara
+i nära kontakt med användarna och få förslag på förbättring gällande
+plattformarna. 
+
+
+
+
+\subsection{Datalagring}
+
+\pagebreak
 \section{Sammanfattning}
+
+\subsection{Företagsimplikationer}
+Företag kan utnyttja resultatet i detta arbete för att göra exaktare beslut
+vid anskaffning av IoT-plattformar. Eftersom arbetet identifierat de
+huvudsakliga egenskaperna för de, i arbetet, nämnda plattformerna, kan företag 
+försnabba beslutsprocessen genom att utesluta de plattformer som inte lämpar sig
+för behovena.
+
+\subsection{Förslag på fortsatt forskning}
+Som fortsatt forskning föreslås en utvidgad empirisk undersökning genom att
+öka antalet undersökta IoT-plattformar. 
+
+Alternativt kunde ett antal av de tillgängliga IoT-plattformarna undersökas 
+djupare, genom att granska egenskaperna hos plattformarna på en mer detaljerad
+nivå. Detta kan utföras genom att undersöka både allmänt tillgänglig 
+dokumentation av plattformarna och information som endast kan fås av 
+plattformarnas ägare.
+
+Ett annat förslag för vidare forskning är mätning av prestandan för egenskaperna 
+hos plattformarna. Exempelvis kunde skalbarheten hos två eller flera plattformar
+jämföras genom att undersöka hur dessa funktionerar under hög belastning.
+Säkerheten hos plattformarna kunde även granskas med hjälp av
+penetreringstester.
 

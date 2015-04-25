@@ -1,4 +1,4 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{7}
 \input babelbst.tex
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
@@ -8,12 +8,43 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[{AllSeen Alliance}()]{alljoyn}
+{AllSeen Alliance}.
+\newblock {Open Source IoT to advance the Internet of Everything - AllSeen
+  Alliance}.
+\newblock URL \url{https://allseenalliance.org)}.
+\newblock {AllSeen Alliance WWW-sida. Hämtad 27.3.2015}.
+
+\bibitem[{Carriots}()]{carriots}
+{Carriots}.
+\newblock {Carriots - Internet of Things Platform}.
+\newblock URL \url{https://www.carriots.com}.
+\newblock {Carriots WWW-sida. Hämtad 23.3.2015.}
+
+\bibitem[{PTC}()]{axeda}
+{PTC}.
+\newblock {Axeda Machine Cloud}.
+\newblock URL \url{http://www.ptc.com/axeda}.
+\newblock Axeda WWW-sida. Hämtad 27.3.2015.
+
+\bibitem[{RacoWireless}()]{racowireless}
+{RacoWireless}.
+\newblock {RacoWireless M2M Solutions}.
+\newblock URL \url{http://www.racowireless.com}.
+\newblock RacoWireless WWW-sida, Hämtad 26.3.2015.
+
 \bibitem[Sun \bbletal{}.(2005)Sun, Chen, \bbland{} Wu]{scalability_def}
 Xian-He Sun, Yong Chen \bbland{} Ming Wu.
 \newblock Scalability of heterogeneous computing.
 \newblock  \emph{Parallel Processing, 2005. ICPP 2005. International Conference
   on}, \bblpages{} 557--564, June 2005.
 \newblock \doi{10.1109/ICPP.2005.69}.
+
+\bibitem[{Wind River}()]{windriver}
+{Wind River}.
+\newblock {Wind River - IoT}.
+\newblock URL \url{http://www.windriver.com}.
+\newblock {Wind River WWW-sida. Hämtad 24.3.2015}.
 
 \bibitem[Zhiquan \bbletal{}.(2011)Zhiquan, Nan, Bo, \bbland{}
   Junliang]{mashup_def}

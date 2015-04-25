@@ -1,0 +1,30 @@
+Pärm
+Abstrakt
+Ordlista
+
+1. Inledning
+    - "Ca. 50 miljarder uppkopplade maskiner vid 2020"
+    - likhet mellan Windows/Linux och IoT-plattformar
+2. Teori
+    - Typiska egenskaper
+        * Skalbarhet
+        * Säkerhet
+        * Mashup
+        * Kommunikationsprotokoll
+    - Allmänna drag för informationssystem
+        * Open source vs. proprietary
+        * Cloud vs. on-premise
+3. Metod
+    - Empirisk undersökning
+    - Trovärdighet
+4. Resultat
+    - Lista på plattformar
+5. Analys
+    - Teori vs. resultat, detaljerat
+6. Sammanfattning
+    - Teori vs. resultat, abstrakt
+    - Hänvisning till syftet
+    - Företagsimplikationer
+    - Fortsatt forskning
+
+Bilagor
